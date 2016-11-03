@@ -196,9 +196,6 @@ module.exports = {
     // enforce consistent linebreak style
     'linebreak-style': 'error',
 
-    // require empty lines around comments
-    'lines-around-comment': 'error',
-
     // require or disallow newlines around directives
     'lines-around-directive': 'error',
 
