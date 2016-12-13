@@ -37,7 +37,7 @@ module.exports = {
     'array-callback-return': 'error',
 
     // enforce consistent brace style for all control statements
-    curly: 'error',
+    curly: ['error', 'multi-line'],
 
     // enforce consistent newlines before and after dots
     'dot-location': ['error', 'property'],
@@ -86,9 +86,6 @@ module.exports = {
 
     // disallow the use of the __proto__ property
     'no-proto': 'error',
-
-    // disallow assignment operators in return statements
-    'no-return-assign': 'error',
 
     // disallow comparisons where both sides are exactly the same
     'no-self-compare': 'error',
@@ -148,7 +145,7 @@ module.exports = {
     'block-spacing': 'error',
 
     // enforce consistent brace style for blocks
-    'brace-style': 'error',
+    'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
 
     // enforce camelcase naming convention
     camelcase: ['error', { "properties": "never" }],
@@ -226,7 +223,7 @@ module.exports = {
     'semi-spacing': 'error',
 
     // require or disallow semicolons instead of ASI
-    semi: 'error',
+    semi: ['error', 'never'],
 
     // enforce consistent spacing before blocks
     'space-before-blocks': 'error',
