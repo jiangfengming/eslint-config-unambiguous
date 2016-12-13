@@ -40,10 +40,7 @@ module.exports = {
     curly: 'error',
 
     // enforce consistent newlines before and after dots
-    'dot-location': [
-      'error',
-      'property'
-    ],
+    'dot-location': ['error', 'property'],
 
     // enforce dot notation whenever possible
     'dot-notation': 'error',
@@ -154,7 +151,7 @@ module.exports = {
     'brace-style': 'error',
 
     // enforce camelcase naming convention
-    camelcase: 'error',
+    camelcase: ['error', { "properties": "never" }],
 
     // require or disallow trailing commas
     'comma-dangle': 'error',
@@ -175,11 +172,7 @@ module.exports = {
     'func-call-spacing': 'error',
 
     // enforce consistent indentation
-    indent: [
-      'error',
-      2,
-      { SwitchCase: 1 }
-    ],
+    indent: ['error', 2, { SwitchCase: 1 }],
 
     // enforce the consistent use of either double or single quotes in JSX attributes
     'jsx-quotes': 'error',
@@ -218,28 +211,16 @@ module.exports = {
     'no-whitespace-before-property': 'error',
 
     // enforce consistent spacing inside braces
-    'object-curly-spacing': [
-      'error',
-      'always'
-    ],
+    'object-curly-spacing': ['error', 'always'],
 
     // require or disallow padding within blocks
-    'padded-blocks': [
-      'error',
-      'never'
-    ],
+    'padded-blocks': ['error', 'never'],
 
     // require quotes around object literal property names
-    'quote-props': [
-      'error',
-      'as-needed'
-    ],
+    'quote-props': ['error', 'as-needed'],
 
     // enforce the consistent use of either backticks, double, or single quotes
-    quotes: [
-      'error',
-      'single'
-    ],
+    quotes: ['error', 'single'],
 
     // enforce consistent spacing before and after semicolons
     'semi-spacing': 'error',
@@ -251,10 +232,7 @@ module.exports = {
     'space-before-blocks': 'error',
 
     // enforce consistent spacing before function definition opening parenthesis
-    'space-before-function-paren': [
-      'error',
-      'never'
-    ],
+    'space-before-function-paren': ['error', 'never'],
 
     // enforce consistent spacing inside parentheses
     'space-in-parens': 'error',
@@ -280,19 +258,13 @@ module.exports = {
     'arrow-body-style': 'error',
 
     // require parentheses around arrow function arguments
-    'arrow-parens': [
-      'error',
-      'as-needed'
-    ],
+    'arrow-parens': ['error', 'as-needed'],
 
     // enforce consistent spacing before and after the arrow in arrow functions
     'arrow-spacing': 'error',
 
     // enforce consistent spacing around * operators in generator functions
-    'generator-star-spacing': [
-      'error',
-      'after'
-    ],
+    'generator-star-spacing': ['error', 'after'],
 
     // disallow duplicate module imports
     'no-duplicate-imports': 'error',
