@@ -147,9 +147,6 @@ module.exports = {
     // enforce consistent brace style for blocks
     'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
 
-    // enforce camelcase naming convention
-    camelcase: ['error', { "properties": "never" }],
-
     // require or disallow trailing commas
     'comma-dangle': 'error',
 
