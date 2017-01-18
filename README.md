@@ -16,7 +16,8 @@ module.exports = {
 
   // es6 has been set by default
   env: {
-    'shared-node-browser': true
+    browser: true,
+    node: true
   },
 
   // overrides
