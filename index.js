@@ -159,9 +159,6 @@ module.exports = {
     // enforce consistent spacing inside computed property brackets
     'computed-property-spacing': 'error',
 
-    // require or disallow newline at the end of files
-    'eol-last': 'error',
-
     // require or disallow spacing between function identifiers and their invocations
     'func-call-spacing': 'error',
 
