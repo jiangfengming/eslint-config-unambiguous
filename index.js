@@ -51,9 +51,6 @@ module.exports = {
     // disallow the use of arguments.caller or arguments.callee
     'no-caller': 'error',
 
-    // disallow empty functions
-    'no-empty-function': 'error',
-
     // disallow unnecessary calls to .bind()
     'no-extra-bind': 'error',
 
