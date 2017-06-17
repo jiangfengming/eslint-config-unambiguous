@@ -87,9 +87,6 @@ module.exports = {
     // disallow comparisons where both sides are exactly the same
     'no-self-compare': 'error',
 
-    // disallow throwing literals as exceptions
-    'no-throw-literal': 'error',
-
     // disallow unused expressions
     'no-unused-expressions': 'error',
 
