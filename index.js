@@ -21,7 +21,7 @@ module.exports = {
      */
 
     // disallow unnecessary parentheses
-    'no-extra-parens': ['error', 'all', { 'nestedBinaryExpressions': false }],
+    'no-extra-parens': ['error', 'all', { nestedBinaryExpressions: false }],
 
     // disallow negating the left operand of relational operators
     'no-unsafe-negation': 'error',
@@ -119,7 +119,7 @@ module.exports = {
     'no-undef-init': 'error',
 
     // disallow the use of variables before they are defined
-    'no-use-before-define': 'error',
+    'no-use-before-define': ['error', { variables: false }],
 
     /*
      * Node.js and CommonJS
@@ -139,7 +139,7 @@ module.exports = {
     'block-spacing': 'error',
 
     // enforce consistent brace style for blocks
-    'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
+    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
 
     // require or disallow trailing commas
     'comma-dangle': 'error',
