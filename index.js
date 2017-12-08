@@ -119,9 +119,6 @@ module.exports = {
     // disallow initializing variables to undefined
     'no-undef-init': 'error',
 
-    // disallow the use of variables before they are defined
-    'no-use-before-define': ['error', { variables: false }],
-
     /*
      * Node.js and CommonJS
      */
