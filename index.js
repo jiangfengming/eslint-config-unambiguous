@@ -1,4 +1,6 @@
 module.exports = {
+  parser: 'babel-eslint',
+
   // http://eslint.org/docs/user-guide/configuring#specifying-environments
   env: {
     es6: true
