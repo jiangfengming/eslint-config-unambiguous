@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-enough",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "The most useful eslint rules that just enough.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,5 @@
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "dependencies": {
-    "babel-eslint": "^8.0.3"
-  }
+  "dependencies": {}
 }
