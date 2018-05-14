@@ -20,9 +20,7 @@
   },
   "homepage": "https://github.com/fenivana/eslint-config-enough#readme",
   "peerDependencies": {
-    "eslint": ">= 3"
-  },
-  "dependencies": {
+    "eslint": ">= 3",
     "babel-eslint": "^8.2.3"
   }
 }
