@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-enough",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "The most useful eslint rules that just enough.",
   "main": "index.js",
   "scripts": {
