@@ -1,10 +1,10 @@
 # eslint-config-enough
-The most useful eslint rules that just enough.
+The most useful eslint [rules](index.js) that just enough.
 
 ## Install
 
 ```
-npm install eslint-config-enough --save-dev
+npm install eslint eslint-config-enough --save-dev
 ```
 
 ## Usage:

@@ -1,6 +1,4 @@
 module.exports = {
-  parser: 'babel-eslint',
-
   // http://eslint.org/docs/user-guide/configuring#specifying-environments
   env: {
     es6: true
@@ -11,7 +9,7 @@ module.exports = {
 
   parserOptions: {
     sourceType: 'module',
-    ecmaVersion: 2018,
+    ecmaVersion: 10,
     ecmaFeatures: {
       jsx: true
     }
