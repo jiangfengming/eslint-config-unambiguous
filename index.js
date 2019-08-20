@@ -136,9 +136,6 @@ module.exports = {
     // enforce consistent spacing inside single-line blocks
     'block-spacing': 'error',
 
-    // enforce consistent brace style for blocks
-    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
-
     // require or disallow trailing commas
     'comma-dangle': 'error',
 
