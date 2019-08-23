@@ -276,9 +276,6 @@ module.exports = {
     // require rest parameters instead of arguments
     'prefer-rest-params': 'error',
 
-    // require spread operators instead of .apply()
-    'prefer-spread': 'error',
-
     // enforce spacing between rest and spread operators and their expressions
     'rest-spread-spacing': 'error',
 
