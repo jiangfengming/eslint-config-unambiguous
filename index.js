@@ -273,9 +273,6 @@ module.exports = {
     // disallow parseInt() in favor of binary, octal, and hexadecimal literals
     'prefer-numeric-literals': 'error',
 
-    // require rest parameters instead of arguments
-    'prefer-rest-params': 'error',
-
     // enforce spacing between rest and spread operators and their expressions
     'rest-spread-spacing': 'error',
 
