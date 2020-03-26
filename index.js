@@ -210,8 +210,8 @@ module.exports = {
       "error",
       { "blankLine": "always", "prev": "import", "next": "*"},
       { "blankLine": "never", "prev": "import", "next": "import"},
-      { "blankLine": "always", "prev": "*", "next": ["block-like", "multiline-expression"] },
-      { "blankLine": "always", "prev": ["block-like", "multiline-expression"], "next": "*" }
+      { "blankLine": "always", "prev": "*", "next": ["block-like", "multiline-expression", "multiline-const", "multiline-let"] },
+      { "blankLine": "always", "prev": ["block-like", "multiline-expression", "multiline-const", "multiline-let"], "next": "*" }
     ],
 
     // require quotes around object literal property names
