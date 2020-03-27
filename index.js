@@ -172,6 +172,14 @@ module.exports = {
     // require empty lines around comments
     "lines-between-class-members": "error",
 
+    // enforce a maximum line length
+    "max-len": ["error", {
+      "code": 120,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true,
+      "ignoreRegExpLiterals": true
+    }],
+
     // require constructor names to begin with a capital letter
     "new-cap": "error",
 
@@ -210,8 +218,19 @@ module.exports = {
       "error",
       { "blankLine": "always", "prev": "import", "next": "*"},
       { "blankLine": "never", "prev": "import", "next": "import"},
-      { "blankLine": "always", "prev": "*", "next": ["block-like", "multiline-expression", "multiline-const", "multiline-let", "export"] },
-      { "blankLine": "always", "prev": ["block-like", "multiline-expression", "multiline-const", "multiline-let"], "next": "*" },
+
+      {
+          "blankLine": "always",
+          "prev": "*",
+          "next": ["block-like", "multiline-expression", "multiline-const", "multiline-let", "export"]
+      },
+
+      {
+        "blankLine": "always",
+        "prev": ["block-like", "multiline-expression", "multiline-const", "multiline-let"],
+        "next": "*"
+      },
+
       { "blankLine": "any", "prev": "export", "next": "export" }
     ],
 
