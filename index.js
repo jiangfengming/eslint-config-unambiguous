@@ -244,7 +244,7 @@ module.exports = {
     "semi-spacing": "error",
 
     // require or disallow semicolons instead of ASI
-    "semi": ["error", "never"],
+    "semi": "error",
 
     // enforce consistent spacing before blocks
     "space-before-blocks": "error",

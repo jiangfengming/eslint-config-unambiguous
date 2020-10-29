@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/jiangfengming/eslint-config-enough#readme",
   "peerDependencies": {
-    "eslint": ">=7.8.0"
+    "eslint": ">=7"
   }
 }
