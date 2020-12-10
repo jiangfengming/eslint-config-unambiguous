@@ -47,7 +47,7 @@ module.exports = {
     "dot-notation": "error",
 
     // require the use of === and !==
-    "eqeqeq": ["error", "smart"],
+    "eqeqeq": "error",
 
     // disallow the use of arguments.caller or arguments.callee
     "no-caller": "error",
