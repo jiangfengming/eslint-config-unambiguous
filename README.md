@@ -1,10 +1,10 @@
-# eslint-config-enough
-The most useful eslint [rules](index.js) that just enough.
+# eslint-config-unambiguous
+Unambiguous eslint rules.
 
 ## Install
 
 ```
-npm install eslint eslint-config-enough --save-dev
+npm install eslint eslint-config-unambiguous --save-dev
 ```
 
 ## Usage:
@@ -12,9 +12,9 @@ Create `.eslintrc.js` at the root of your project:
 
 ```js
 module.exports = {
-  extends: 'enough',
+  extends: 'unambiguous',
 
-  // es6 has been set by default
+  // set env
   env: {
     browser: true,
     node: true

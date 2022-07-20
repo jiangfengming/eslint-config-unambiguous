@@ -1,14 +1,14 @@
 {
-  "name": "eslint-config-enough",
+  "name": "eslint-config-unambiguous",
   "version": "0.7.1",
-  "description": "The most useful eslint rules that just enough.",
+  "description": "Unambiguous eslint rules.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jiangfengming/eslint-config-enough.git"
+    "url": "git+https://github.com/jiangfengming/eslint-config-unambiguous.git"
   },
   "keywords": [
     "eslint"
@@ -16,9 +16,9 @@
   "author": "Fengming Jiang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jiangfengming/eslint-config-enough/issues"
+    "url": "https://github.com/jiangfengming/eslint-config-unambiguous/issues"
   },
-  "homepage": "https://github.com/jiangfengming/eslint-config-enough#readme",
+  "homepage": "https://github.com/jiangfengming/eslint-config-unambiguous#readme",
   "peerDependencies": {
     "eslint": ">=7"
   }
