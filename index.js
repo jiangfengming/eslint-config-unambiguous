@@ -9,7 +9,7 @@ module.exports = {
 
   "parserOptions": {
     "sourceType": "module",
-    "ecmaVersion": 12,
+    "ecmaVersion": 13,
     "ecmaFeatures": {
       "jsx": true
     }
@@ -168,9 +168,6 @@ module.exports = {
 
     // enforce consistent linebreak style
     "linebreak-style": "error",
-
-    // require empty lines around comments
-    "lines-between-class-members": "error",
 
     // enforce a maximum line length
     "max-len": ["error", {
